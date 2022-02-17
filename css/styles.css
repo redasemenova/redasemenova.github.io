@@ -1,35 +1,82 @@
 
 
-body   {width: 1000px;
-        margin: 1% 0px 30px 48px;
-        padding: 0px;
+body   {max-width: width: 1000px;
+        padding: 10px 100px 30px 48px;
         background: white;
 	    font-family: Montserrat, Roboto, sans-serif;
         line-height: 120%;}
 
 
 <!-- Верстка -->
-
+.container {}
 
 <!-- Шапка -->
 
+img .logo {left: 0px;
+top: 67.43px;
+padding: 0px;
+margin: 0px;}
+
+.color_green {background-color: #E0E402;}
+
+.header__inner {
+     display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+     width: 100%;
+     max-width: 1000px;
+     height: 50px;
+     margin: 0px;
+     line-height: 50px;}
+
+ .topnav {
+     display: flex;
+     align-items: center;
+     justify-content: center;}
 
  <!-- Текст -->
 
-h1, h2, p 
+h1, h2, p, h1 > p 
 {font-style: normal;}
 
-h2, p {font-family: Roboto;}
+h2, p {font-family: Roboto;
+line-height: 120%;}
 
-h1 {font-size: 90px;
-font-family: Montserrat;}
+h1 {
+width: 766px;
+height: 316px;
+left: 43px; top: 121px;
+font-family: Montserrat;
+font-weight: 600; font-size: 88px;
+line-height: 90%;
+letter-spacing: -0.05em;
+font-feature-settings: 'tnum' on, 'lnum' on, 'kern' off;}
 
-h2 {font-size: 40px;
+h2 {
+width: 459px;
+height: 95px;
+left: 48px; top: 876.17px;
+font-weight: bold;
 font-size: 40px;}
 
-p {
+p {font-size: 24px;}
+
+.new {
+width: 751px;
+height: 302px;
+left: 48px;
+top: 525.84px;
+
 font-family: Roboto;
-font-size: 24px;}
+font-weight: normal;
+font-size: 36px;
+line-height: 120%;}
+
+.bad_wool_2 {position: absolute;
+width: 466px;
+height: 738.43px;
+left: 488px;
+/* or 29px */}
 
 .col-xs-2 > p {padding-top: 140px;
 font-size: 12px;}
@@ -42,7 +89,7 @@ line-height: normal;}
 font-size: 16px;
 line-height: normal;}
 
-blockquote { color: rgba(18, 131, 0, 1);
+p .cite { color: rgba(18, 131, 0, 1);
 font-family: Times New Roman;
 font-style: italic;
 font-weight: bold;
