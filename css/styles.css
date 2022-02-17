@@ -1,0 +1,52 @@
+
+
+body   {width: 1000px;
+        margin: 1% 0px 30px 48px;
+        padding: 0px;
+        background: white;
+	    font-family: Montserrat, Roboto, sans-serif;
+        line-height: 120%;}
+
+
+<!-- Верстка -->
+
+
+<!-- Шапка -->
+
+
+ <!-- Текст -->
+
+h1, h2, p 
+{font-style: normal;}
+
+h2, p {font-family: Roboto;}
+
+h1 {font-size: 90px;
+font-family: Montserrat;}
+
+h2 {font-size: 40px;
+font-size: 40px;}
+
+p {
+font-family: Roboto;
+font-size: 24px;}
+
+.col-xs-2 > p {padding-top: 140px;
+font-size: 12px;}
+
+figcaption {font: Roboto;
+font-size: 17px;
+line-height: normal;}
+
+.wool figcaption {font: Montserrat;
+font-size: 16px;
+line-height: normal;}
+
+blockquote { color: rgba(18, 131, 0, 1);
+font-family: Times New Roman;
+font-style: italic;
+font-weight: bold;
+font-size: 34px;
+line-height: 115%;
+margin-top: 38px;}
+
