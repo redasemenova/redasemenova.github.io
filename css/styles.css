@@ -1,16 +1,16 @@
 
 
-body   {max-width: 1000px;
+body   {max-width: width: 1000px;
         padding: 10px 100px 30px 48px;
         background: white;
 	    font-family: Montserrat, Roboto, sans-serif;
         line-height: 120%;}
 
 
-<!-- Верстка -->
+# Верстка
 .container {}
 
-<!-- Шапка -->
+# Шапка 
 
 img .logo {left: 0px;
 top: 67.43px;
@@ -29,10 +29,26 @@ margin: 0px;}
      margin: 0px;
      line-height: 50px;}
 
+.logo {
+    margin: 0 -75px;
+}
+
  .topnav {
      display: flex;
      align-items: center;
-     justify-content: center;}
+     justify-content: center;
+}
+
+.topnav a {
+    margin: 0 10px;
+    font: Roboto;
+    color: #000;
+    font-size: 18pt;
+}
+
+a.active {
+    color: #938400
+}
 
  <!-- Текст -->
 
@@ -81,9 +97,11 @@ left: 488px;
 .col-xs-2 > p {padding-top: 140px;
 font-size: 12px;}
 
-figcaption {font: Roboto;
-font-size: 17px;
-line-height: normal;}
+figcaption {
+    font: Roboto;
+    font-size: 17px;
+    line-height: normal;
+}
 
 .wool figcaption {font: Montserrat;
 font-size: 16px;
@@ -97,3 +115,6 @@ font-size: 34px;
 line-height: 115%;
 margin-top: 38px;}
 
+footer p {
+    font-size: 12pt;
+}
