@@ -88,30 +88,31 @@ width: 459px;
 height: 95px;
 left: 48px; top: 876.17px;
 font-weight: bold;
-font-size: 40px;}
+font-size: 40px;
+margin: 0 0 15px 0;}
 
 p {font-size: 24px;}
 
 .new {
 width: 751px;
-height: 302px;
+height: 189px;
 left: 48px;
 top: 525.84px;
-margin: -8px 0 40px 0;
+margin: -8px 0 20px 0;
 
 font-family: Roboto;
 font-weight: normal;
 font-size: 36px;
 line-height: 120%;}
 
-.bad_wool_2 {position: absolute;
-width: 466px;
-height: 738.43px;
-left: 488px;
-/* or 29px */}
+.col-xs-9 {margin: 0px 0 -50px 0;}
 
 .col-xs-2 > p {padding-top: 140px;
 font-size: 12px;}
+
+.words {position: static;
+left: -170px;
+margin: 0 0 0px 0;}
 
 figcaption {
     font: Roboto;
@@ -123,14 +124,18 @@ figcaption {
 font-size: 16px;
 line-height: normal;}
 
-p .cite { color: rgba(18, 131, 0, 1);
+.cite { color: #128300;
 font-family: Times New Roman;
 font-style: italic;
 font-weight: bold;
 font-size: 34px;
 line-height: 115%;
-margin-top: 38px;}
+margin: 11px 0 10px 0;
+width: 896px;
+height: 174px;
+left: -18px;}
 
 footer p {
     font-size: 12pt;
+    margin: 50px 0 0 0;
 }
