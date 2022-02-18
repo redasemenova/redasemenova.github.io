@@ -7,71 +7,67 @@ body   {max-width: 1000px;
         line-height: 120%;
         margin: 0px;}
 
-
 # Верстка
 
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 0;
-    margin-left: 0px;}
+padding-right: 15px;
+padding-left: 15px;
+margin-right: 0;
+margin-left: 0px;}
 
 .row {
-    margin:50px 48px 83px 33px;
-}
+    margin:50px 48px 83px 33px;}
+
+
+
 # Шапка 
-
-
 
 .color_green {background-color: #E0E402;}
 
 .header__inner {
-     display: flex;
-     justify-content: space-between;
-     width: 100%;
-     max-width: 1000px;
-     height: 50px;
-     margin: 0px;
-     line-height: 50px;}
-
+display: flex;
+justify-content: space-between;
+width: 100%;
+max-width: 1000px;
+height: 50px;
+margin: 0px;
+line-height: 50px;}
 
 img .logo {
 padding: 0px;
 width: 226px;
 height: 76px;}
 
-.color_green {background-color: #E0E402;}
+.color_green {
+background-color: #E0E402;}
 
 .logo {
-    margin: 0px -31px;
-}
+margin: 0px -31px;}
 
 
  .topnav {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     margin: 19px 0 0 33px;
-}
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 19px 0 0 33px;}
 
 .topnav a {
-    margin: 0 0 0 19px;
-    font-family: 'Roboto';
-    color: #000;
-    font-size: 24pt;
+margin: 0 0 0 19px;
+font-family: 'Roboto';
+color: #000;
+font-size: 24pt;
 }
 
 a.active {
-    color: #938400
-}
+color: #938400}
 
 .tel {
-    right: -145px;
-    margin-top: 19px;
-    margin-left: -99px;
-    font-family: 'Roboto';
-    font-size: 24px;
-    font-weight: 500;
+right: -145px;
+margin-top: 19px;
+margin-left: -99px;
+font-family: 'Roboto';
+font-size: 24pt;
+font-weight: 500;
 }
 
  <!-- Текст -->
@@ -79,7 +75,8 @@ a.active {
 h1, h2, p, h1 > p 
 {font-style: normal;}
 
-h2, p {font-family: 'Roboto';
+h2, p {
+font-family: 'Roboto';
 line-height: 120%;}
 
 h1, .h1 {
@@ -87,49 +84,53 @@ width: 766px;
 height: 316px;
 left: 43px; top: 121px;
 font-family: 'Montserrat';
-font-weight: 600; font-size: 88px;
+font-weight: 600;
+font-size: 88pt;
 line-height: 90%;
 font-feature-settings: 'tnum' on, 'lnum' on, 'kern' off;
 margin: -4px 2px -9px -19px;}
 
-.h1 {letter-spacing: -0.05em;
+.h1 {
+letter-spacing: -0.05em;
 margin: -4px 3px -9px -17px
 ;}
 
-.h1_1 {margin: 0 0 0 17px;}
+.h1_1 {
+margin: 0 0 0 17px;}
 
-.h1_safe {margin: 0px 0 0px -10px;}
+.h1_safe {
+margin: 0px 0 0px -10px;}
 
 
 h2 {
-    width: 638px;
-    height: 90px;
-    left: 48px;
-    top: 876.17px;
-    font-family: 'Roboto';
-    font-weight: 800;
-    font-size: 40px;
-    margin: 0 0 -56px -11px;
-    letter-spacing: 0.01em;}
+width: 638px;
+height: 90px;
+left: 48px;
+top: 876.17px;
+font-family: 'Roboto';
+font-weight: 800;
+font-size: 40pt;
+margin: 0 0 -56px -11px;
+letter-spacing: 0.01em;}
 
 .col-xs-9.sydn_p {
-    margin: 5px 0 0 -11px;
-    width: 726px;}
+margin: 5px 0 0 -11px;
+width: 726px;}
 
 .sydn_p1 {
-    margin: margin: 5px 0 -3px 0px;
-    padding: 0 0 5px 0;}
+margin: 5px 0 -3px 0px;
+padding: 0 0 5px 0;}
 
 .sydn_p2 {
-    margin: margin: 5px 0 -3px 0px;
-    padding: 0 0 5px 0;}
+margin: 5px 0 -3px 0px;
+padding: 0 0 5px 0;}
 
 .sydn_p3 {
-    margin: margin: 5px 0 -3px 0px;
-    padding: 0 0 5px 0;}
+margin: 5px 0 -3px 0px;
+padding: 0 0 5px 0;}
 
-p {font-size: 24px;}
-
+p {
+font-size: 24pt;}
 
 .new {
 width: 751px;
@@ -140,48 +141,48 @@ margin: -15px 0 28px -13px;
 
 font-family: 'Roboto';
 font-weight: normal;
-font-size: 36px;
+font-size: 36pt;
 line-height: 120%;}
 
-.col-xs-9 {margin: 0px 0 -50px 0;}
+.col-xs-9 {
+margin: 0px 0 -50px 0;}
 
-.col-xs-2 > p {padding-top: 0px;
-font-size: 12px;
+.col-xs-2 > p {
+padding-top: 0px;
 #position: absolute;
 width: 142px;
 left: 700px;
-    top: -635px;
+top: -635px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: 16pt;
 line-height: 120%;
-/* or 19px */
-
 text-decoration-line: underline;
-
 color: #1C52A3;}
 
-.words {#position: relative;
+.words {
+#position: relative;
 left: -180px;
 bottom: -80px;
 margin: 27px 0 50px 0;}
 
 figcaption {
-    font-family: 'Roboto';
-    font-size: 17px;
-    line-height: normal;
+font-family: 'Roboto';
+font-size: 17pt;
+line-height: normal;
 }
 
-.wool figcaption {font-family: 'Montserrat';
-font-size: 16px;
+.wool figcaption
+{font-family: 'Montserrat';
+font-size: 16pt;
 line-height: normal;}
 
 .cite { color: #128300;
 font-family: 'Times New Roman';
 font-style: italic;
 font-weight: bold;
-font-size: 34px;
+font-size: 34pt;
 line-height: 115%;
 margin: 11px 0 10px 0;
 width: 896px;
@@ -191,6 +192,6 @@ left: -18px;}
 footer {margin: 15px 0 0 0;}
 
 footer p {
-    font-size: 12pt;
-    margin: 0px 0 0 0;
+font-size: 12pt;
+margin: 0px 0 0 0;
 }
