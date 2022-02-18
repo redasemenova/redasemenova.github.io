@@ -3,7 +3,7 @@
 body   {max-width: 1000px;
         padding: -10px 100px 30px 48px;
         background: white;
-	    font-family: Montserrat, Roboto, sans-serif;
+	    font-family: 'Montserrat', 'Roboto', sans-serif;
         line-height: 120%;
         margin: 0px;}
 
@@ -51,12 +51,12 @@ padding: 0px;}
      display: flex;
      align-items: center;
      justify-content: center;
-     margin: 19px 0 15px 35px;
+     margin: 19px 0 0 33px;
 }
 
 .topnav a {
-    margin: 0 0 0 17px;
-    font-family: Roboto;
+    margin: 0 0 0 19px;
+    font-family: 'Roboto';
     color: #000;
     font-size: 24pt;
 }
@@ -66,10 +66,12 @@ a.active {
 }
 
 .tel {
-    right: -130px;
+    right: -145px;
     margin-top: 19px;
     margin-left: -99px;
+    font-family: 'Roboto';
     font-size: 24px;
+    font-weight: 500;
 }
 
  <!-- Текст -->
@@ -77,14 +79,14 @@ a.active {
 h1, h2, p, h1 > p 
 {font-style: normal;}
 
-h2, p {font-family: Roboto;
+h2, p {font-family: 'Roboto';
 line-height: 120%;}
 
 h1, .h1 {
 width: 766px;
 height: 316px;
 left: 43px; top: 121px;
-font-family: Montserrat;
+font-family: 'Montserrat';
 font-weight: 600; font-size: 88px;
 line-height: 90%;
 font-feature-settings: 'tnum' on, 'lnum' on, 'kern' off;
@@ -116,7 +118,7 @@ left: 48px;
 top: 525.84px;
 margin: -8px 0 20px 0;
 
-font-family: Roboto;
+font-family: 'Roboto';
 font-weight: normal;
 font-size: 36px;
 line-height: 120%;}
@@ -129,7 +131,7 @@ position: absolute;
 width: 142px;
 left: 700px;
     top: -635px;
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -146,17 +148,17 @@ bottom: -80px;
 margin: 0 0 50px 0;}
 
 figcaption {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 17px;
     line-height: normal;
 }
 
-.wool figcaption {font-family: Montserrat;
+.wool figcaption {font-family: 'Montserrat';
 font-size: 16px;
 line-height: normal;}
 
 .cite { color: #128300;
-font-family: Times New Roman;
+font-family: 'Times New Roman';
 font-style: italic;
 font-weight: bold;
 font-size: 34px;
