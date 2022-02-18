@@ -39,8 +39,7 @@ background-color: #E0E402;
 width: 1000px;}
 
 .logo {
-margin: 0 0 0 -10px;
-padding: 0px;
+margin: 0 0 0 -7px;
 width: 226px;
 height: 76px;}
 
@@ -49,8 +48,7 @@ height: 76px;}
 display: flex;
 align-items: center;
 justify-content: center;
-margin: 19px 0 0 45px;
-width: calc (100% / 3)}
+margin: 18px 0 0 -194px;}
 
 .topnav a {
 margin: 0 0 0 19px;
@@ -63,7 +61,8 @@ a.active {
 color: #938400}
 
 .tel {
-right: -87px;
+right: -76px;
+top: -1px;
 margin-top: 19px;
 margin-left: -99px;
 font-family: 'Roboto';
@@ -97,7 +96,7 @@ margin: -4px 3px -9px -17px
 ;}
 
 .h1_1 {
-margin: 0 0 0 17px;}
+margin: 0 0 0 14px;}
 
 .h1_safe {
 margin: 0px 0 0px -10px;}
@@ -116,18 +115,18 @@ letter-spacing: 0.01em;}
 
 .col-xs-9.sydn_p {
 margin: 5px 0 0 -11px;
-width: 726px;}
+width: 740px;}
 
 .sydn_p1 {
 margin: 5px 0 -3px 0px;
 padding: 0 0 5px 0;}
 
 .sydn_p2 {
-margin: 5px 0 -3px 0px;
+margin: 11px 0 13px 0px;
 padding: 0 0 5px 0;}
 
 .sydn_p3 {
-margin: 5px 0 -3px 0px;
+margin: 2px 0 -3px 0px;
 padding: 0 0 5px 0;}
 
 p {
@@ -139,7 +138,7 @@ height: 189px;
 left: 48px;
 line-height: 43.2px;
 top: 525.84px;
-margin: -15px 0 28px -13px;
+margin: -15px 0 31px -29px;
 
 font-family: 'Roboto';
 font-weight: normal;
@@ -167,7 +166,7 @@ color: #1C52A3;}
 #position: relative;
 left: -180px;
 bottom: -80px;
-margin: 27px 0 50px 0;}
+margin: 12px 0 50px 0;}
 
 figcaption {
 font-family: 'Roboto';
@@ -183,17 +182,27 @@ line-height: normal;}
 .cite { color: #128300;
 font-family: 'Times New Roman';
 font-style: italic;
-font-weight: bold;
-font-size: 34px;
-line-height: 115%;
-margin: 11px 0 10px 0;
-width: 896px;
+font-weight: 700;
+font-size: 33px;
+line-height: 110%;
+margin: 15px 0 10px 1px;
+width: 838px;
 height: 174px;
 left: -18px;}
 
 footer {margin: 15px 0 0 0;}
 
+img.media_links {
+width: 122px;
+height: 28.45px;
+margin: -44px 0 0 73px;}
+
 footer p {
-font-size: 12px;
-margin: 0px 0 0 0;
-}
+margin: -27px 0 0 31px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;}
