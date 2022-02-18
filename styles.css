@@ -1,38 +1,69 @@
 
 
 body   {max-width: width: 1000px;
-        padding: 10px 100px 30px 48px;
+        padding: -10px 100px 30px 48px;
         background: white;
 	    font-family: Montserrat, Roboto, sans-serif;
-        line-height: 120%;}
+        line-height: 120%;
+        margin: 0px;}
 
 
-<!-- Верстка -->
-.container {}
+# Верстка
 
-<!-- Шапка -->
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 0px;}
 
-img .logo {left: 0px;
-top: 67.43px;
-padding: 0px;
-margin: 0px;}
+.row {
+    margin:50px 48px 83px 33px;
+}
+# Шапка 
+
+
 
 .color_green {background-color: #E0E402;}
 
 .header__inner {
      display: flex;
      justify-content: space-between;
-     align-items: baseline;
      width: 100%;
      max-width: 1000px;
      height: 50px;
      margin: 0px;
      line-height: 50px;}
 
+img .logo {
+padding: 0px;}
+
+.color_green {background-color: #E0E402;}
+
+.logo {
+    margin: 5px -33px;
+}
+
+
  .topnav {
      display: flex;
      align-items: center;
-     justify-content: center;}
+     justify-content: center;
+     margin: 22px 0 15px 0;
+}
+
+.topnav a {
+    margin: 0 0 0 15px;
+    font: Roboto;
+    color: #000;
+    font-size: 18pt;
+}
+
+a.active {
+    color: #938400
+}
+
+.tel {margin-top: 22px; margin-left: -20px;
+font-size: 18px;}
 
  <!-- Текст -->
 
@@ -66,6 +97,7 @@ width: 751px;
 height: 302px;
 left: 48px;
 top: 525.84px;
+margin: -8px 0 40px 0;
 
 font-family: Roboto;
 font-weight: normal;
@@ -81,9 +113,11 @@ left: 488px;
 .col-xs-2 > p {padding-top: 140px;
 font-size: 12px;}
 
-figcaption {font: Roboto;
-font-size: 17px;
-line-height: normal;}
+figcaption {
+    font: Roboto;
+    font-size: 17px;
+    line-height: normal;
+}
 
 .wool figcaption {font: Montserrat;
 font-size: 16px;
@@ -97,3 +131,6 @@ font-size: 34px;
 line-height: 115%;
 margin-top: 38px;}
 
+footer p {
+    font-size: 12pt;
+}
