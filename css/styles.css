@@ -196,10 +196,10 @@ footer {margin: 15px 0 0 0;}
 img.media_links {
 width: 122px;
 height: 28.45px;
-margin: -44px 0 0 73px;}
+margin: -55px 0 0 41px;}
 
 footer p {
-margin: -27px 0 0 31px;
+margin: -27px 0 0 -1px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -207,3 +207,10 @@ font-size: 20px;
 line-height: 23px;
 display: flex;
 align-items: center;}
+
+.text-lg-start {
+background-color: rgba(0, 0, 0, 0.05);
+min-height: 50px;
+width: 100%;
+max-width: 1000px}
+
