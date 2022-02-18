@@ -34,12 +34,11 @@ body   {max-width: 1000px;
      margin: 0px;
      line-height: 50px;}
 
-
+img {width: 226px;
+    height: 76px;}
 
 img .logo {
-padding: 0px;
-width: 226px;
-height: 76px;}
+padding: 0px;}
 
 .color_green {background-color: #E0E402;}
 
@@ -114,18 +113,20 @@ h2 {
     letter-spacing: 0.01em;}
 
 .col-xs-9.sydn_p {
-    margin: 30px 0 0 -11px;
+    margin: 5px 0 0 -11px;
     width: 726px;}
 
 .sydn_p1 {
-    margin: -1px 0 -23px 2px;}
+    margin: margin: 5px 0 -3px 0px;
+    padding: 0 0 5px 0;}
 
 .sydn_p2 {
-    margin: 0 -31px -11px 0;
-    padding: 42px 0 10px 0;}
+    margin: margin: 5px 0 -3px 0px;
+    padding: 0 0 5px 0;}
 
 .sydn_p3 {
-    margin: 17px 0 6px 2px;}
+    margin: margin: 5px 0 -3px 0px;
+    padding: 0 0 5px 0;}
 
 p {font-size: 24px;}
 
@@ -144,30 +145,27 @@ line-height: 120%;}
 
 .col-xs-9 {margin: 0px 0 -50px 0;}
 
-.col-xs-2 > p {
-    padding-top: 30px;
-    font-size: 12px;
-    position: absolute;
-    width: 147px;
-    left: 739.69px;
+.col-xs-2 > p {padding-top: 0px;
+font-size: 12px;
+#position: absolute;
+width: 142px;
+left: 700px;
     top: -635px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 120%;
-    text-decoration-line: underline;
-    color: #1C52A3;}
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
 
-.words {
-    /* position: absolute; */
-    left: 94px;
-    bottom: -80px;
-    margin: 0 0 -60px -138px;}
+text-decoration-line: underline;
 
-img .words {
-    width: 393px;
-    height: 54px;}
+color: #1C52A3;}
+
+.words {position: relative;
+left: -180px;
+bottom: -80px;
+margin: 0 0 50px 0;}
 
 figcaption {
     font-family: 'Roboto';
@@ -183,10 +181,10 @@ line-height: normal;}
 font-family: 'Times New Roman';
 font-style: italic;
 font-weight: bold;
-font-size: 33px;
-line-height: 110%;
+font-size: 34px;
+line-height: 115%;
 margin: 11px 0 10px 0;
-width: 790px;
+width: 896px;
 height: 174px;
 left: -18px;}
 
