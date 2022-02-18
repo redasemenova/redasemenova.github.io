@@ -1,6 +1,6 @@
 
 
-body   {max-width: width: 1000px;
+body   {max-width: 1000px;
         padding: -10px 100px 30px 48px;
         background: white;
 	    font-family: Montserrat, Roboto, sans-serif;
@@ -82,14 +82,14 @@ font-family: Montserrat;
 font-weight: 600; font-size: 88px;
 line-height: 90%;
 font-feature-settings: 'tnum' on, 'lnum' on, 'kern' off;
-margin: -6px 0-10 px -19px;}
+margin: -6px 0 -10px -19px;}
 
 .h1 {letter-spacing: -0.05em;
 }
 
-.h1_1 {margin: -6px 0-10 px -19px;}
+.h1_1 {margin: 0 0 0 18px;}
 
-.h1_safe {margin: -6px 0-10 px -19px;}
+.h1_safe {margin: 0px 0 0px -10px;}
 
 
 
