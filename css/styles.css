@@ -70,7 +70,8 @@ font-size: 18px;}
 h1, h2, p, h1 > p 
 {font-style: normal;}
 
-h2, p {font-family: Roboto;
+h2, p 
+{font-family: Roboto;
 line-height: 120%;}
 
 h1, .h1 {
@@ -80,10 +81,10 @@ left: 43px; top: 121px;
 font-family: Montserrat;
 font-weight: 600; font-size: 88px;
 line-height: 90%;
-font-feature-settings: 'tnum' on, 'lnum' on, 'kern' off;}
+font-feature-settings: 'tnum' on, 'lnum' on, 'kern' off;
+margin: -6px 0 -10px -19px;}
 
-.h1 {letter-spacing: -0.05em;
-}
+.h1 {letter-spacing: -0.05em;}
 
 
 h2 {
