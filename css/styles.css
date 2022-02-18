@@ -82,15 +82,15 @@ font-family: Montserrat;
 font-weight: 600; font-size: 88px;
 line-height: 90%;
 font-feature-settings: 'tnum' on, 'lnum' on, 'kern' off;
-margin: -6px 0 -10px -19px;}
+margin: -4px 2px -9px -19px;}
 
-.h1 {letter-spacing: -0.05em;
-}
+.h1 {
+letter-spacing: -0.05em;
+margin: -4px 3px -9px -17px;}
 
-.h1_1 {margin: 0 0 0 18px;}
+.h1_1 {margin: 0 0 0 17px;}
 
 .h1_safe {margin: 0px 0 0px -10px;}
-
 
 
 h2 {
