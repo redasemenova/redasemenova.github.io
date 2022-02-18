@@ -113,20 +113,18 @@ h2 {
     letter-spacing: 0.01em;}
 
 .col-xs-9.sydn_p {
-    margin: 5px 0 0 -11px;
+    margin: 30px 0 0 -11px;
     width: 726px;}
 
 .sydn_p1 {
-    margin: margin: 5px 0 -3px 0px;
-    padding: 0 0 5px 0;}
+    margin: -1px 0 -23px 2px;}
 
 .sydn_p2 {
-    margin: margin: 5px 0 -3px 0px;
-    padding: 0 0 5px 0;}
+    margin: 0 -31px -11px 0;
+    padding: 42px 0 10px 0;}
 
 .sydn_p3 {
-    margin: margin: 5px 0 -3px 0px;
-    padding: 0 0 5px 0;}
+    margin: 17px 0 6px 2px;}
 
 p {font-size: 24px;}
 
@@ -181,10 +179,10 @@ line-height: normal;}
 font-family: 'Times New Roman';
 font-style: italic;
 font-weight: bold;
-font-size: 34px;
-line-height: 115%;
+font-size: 33px;
+line-height: 110%;
 margin: 11px 0 10px 0;
-width: 896px;
+width: 790px;
 height: 174px;
 left: -18px;}
 
