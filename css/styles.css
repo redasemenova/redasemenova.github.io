@@ -34,11 +34,12 @@ body   {max-width: 1000px;
      margin: 0px;
      line-height: 50px;}
 
-img {width: 226px;
-    height: 76px;}
+
 
 img .logo {
-padding: 0px;}
+padding: 0px;
+width: 226px;
+height: 76px;}
 
 .color_green {background-color: #E0E402;}
 
@@ -143,27 +144,30 @@ line-height: 120%;}
 
 .col-xs-9 {margin: 0px 0 -50px 0;}
 
-.col-xs-2 > p {padding-top: 0px;
-font-size: 12px;
-position: absolute;
-width: 142px;
-left: 700px;
+.col-xs-2 > p {
+    padding-top: 30px;
+    font-size: 12px;
+    position: absolute;
+    width: 147px;
+    left: 739.69px;
     top: -635px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 120%;
-/* or 19px */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    text-decoration-line: underline;
+    color: #1C52A3;}
 
-text-decoration-line: underline;
+.words {
+    /* position: absolute; */
+    left: 94px;
+    bottom: -80px;
+    margin: 0 0 -60px -138px;}
 
-color: #1C52A3;}
-
-.words {position: relative;
-left: -180px;
-bottom: -80px;
-margin: 0 0 50px 0;}
+img .words {
+    width: 393px;
+    height: 54px;}
 
 figcaption {
     font-family: 'Roboto';
