@@ -9,7 +9,7 @@ body   {max-width: 1000px;
 
 # Верстка
 
-.container {
+.container {max-width: inherit;
 padding-right: 15px;
 padding-left: 15px;
 margin-right: 0;
@@ -55,7 +55,7 @@ margin: 19px 0 0 33px;}
 margin: 0 0 0 19px;
 font-family: 'Roboto';
 color: #000;
-font-size: 24pt;
+font-size: 24px;
 }
 
 a.active {
@@ -66,7 +66,7 @@ right: -145px;
 margin-top: 19px;
 margin-left: -99px;
 font-family: 'Roboto';
-font-size: 24pt;
+font-size: 24px;
 font-weight: 500;
 }
 
@@ -85,7 +85,7 @@ height: 316px;
 left: 43px; top: 121px;
 font-family: 'Montserrat';
 font-weight: 600;
-font-size: 88pt;
+font-size: 88px;
 line-height: 90%;
 font-feature-settings: 'tnum' on, 'lnum' on, 'kern' off;
 margin: -4px 2px -9px -19px;}
@@ -109,7 +109,7 @@ left: 48px;
 top: 876.17px;
 font-family: 'Roboto';
 font-weight: 800;
-font-size: 40pt;
+font-size: 40px;
 margin: 0 0 -56px -11px;
 letter-spacing: 0.01em;}
 
@@ -130,7 +130,7 @@ margin: 5px 0 -3px 0px;
 padding: 0 0 5px 0;}
 
 p {
-font-size: 24pt;}
+font-size: 24px;}
 
 .new {
 width: 751px;
@@ -141,7 +141,7 @@ margin: -15px 0 28px -13px;
 
 font-family: 'Roboto';
 font-weight: normal;
-font-size: 36pt;
+font-size: 36px;
 line-height: 120%;}
 
 .col-xs-9 {
@@ -156,7 +156,7 @@ top: -635px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
-font-size: 16pt;
+font-size: 16px;
 line-height: 120%;
 text-decoration-line: underline;
 color: #1C52A3;}
@@ -169,20 +169,20 @@ margin: 27px 0 50px 0;}
 
 figcaption {
 font-family: 'Roboto';
-font-size: 17pt;
+font-size: 17px;
 line-height: normal;
 }
 
 .wool figcaption
 {font-family: 'Montserrat';
-font-size: 16pt;
+font-size: 16px;
 line-height: normal;}
 
 .cite { color: #128300;
 font-family: 'Times New Roman';
 font-style: italic;
 font-weight: bold;
-font-size: 34pt;
+font-size: 34px;
 line-height: 115%;
 margin: 11px 0 10px 0;
 width: 896px;
@@ -192,6 +192,6 @@ left: -18px;}
 footer {margin: 15px 0 0 0;}
 
 footer p {
-font-size: 12pt;
+font-size: 12px;
 margin: 0px 0 0 0;
 }
