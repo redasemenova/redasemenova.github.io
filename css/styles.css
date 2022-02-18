@@ -102,21 +102,41 @@ margin: -4px 3px -9px -17px
 
 
 h2 {
-width: 459px;
-height: 95px;
-left: 48px; top: 876.17px;
-font-weight: bold;
-font-size: 40px;
-margin: 0 0 15px 0;}
+    width: 638px;
+    height: 90px;
+    left: 48px;
+    top: 876.17px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0 0 -56px -11px;
+    letter-spacing: 0.01em;}
+
+.col-xs-9.sydn_p {
+    margin: 5px 0 0 -11px;
+    width: 726px;}
+
+.sydn_p1 {
+    margin: margin: 5px 0 -3px 0px;
+    padding: 0 0 5px 0;}
+
+.sydn_p2 {
+    margin: margin: 5px 0 -3px 0px;
+    padding: 0 0 5px 0;}
+
+.sydn_p3 {
+    margin: margin: 5px 0 -3px 0px;
+    padding: 0 0 5px 0;}
 
 p {font-size: 24px;}
+
 
 .new {
 width: 751px;
 height: 189px;
 left: 48px;
 top: 525.84px;
-margin: -8px 0 20px 0;
+margin: -15px 0 28px -13px;
 
 font-family: 'Roboto';
 font-weight: normal;
