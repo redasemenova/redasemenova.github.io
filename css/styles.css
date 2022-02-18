@@ -34,11 +34,11 @@ body   {max-width: 1000px;
      margin: 0px;
      line-height: 50px;}
 
-img {width: 226px;
-    height: 76px;}
 
 img .logo {
-padding: 0px;}
+padding: 0px;
+width: 226px;
+height: 76px;}
 
 .color_green {background-color: #E0E402;}
 
@@ -162,10 +162,10 @@ text-decoration-line: underline;
 
 color: #1C52A3;}
 
-.words {position: relative;
+.words {#position: relative;
 left: -180px;
 bottom: -80px;
-margin: 0 0 50px 0;}
+margin: 27px 0 50px 0;}
 
 figcaption {
     font-family: 'Roboto';
