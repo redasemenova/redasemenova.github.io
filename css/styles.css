@@ -33,23 +33,24 @@ height: 50px;
 margin: 0px;
 line-height: 50px;}
 
-img .logo {
+
+.color_green {
+background-color: #E0E402;
+width: 1000px;}
+
+.logo {
+margin: 0 0 0 -10px;
 padding: 0px;
 width: 226px;
 height: 76px;}
-
-.color_green {
-background-color: #E0E402;}
-
-.logo {
-margin: 0px -23px;}
 
 
  .topnav {
 display: flex;
 align-items: center;
 justify-content: center;
-margin: 19px 0 0 33px;}
+margin: 19px 0 0 45px;
+width: calc (100% / 3)}
 
 .topnav a {
 margin: 0 0 0 19px;
@@ -62,7 +63,7 @@ a.active {
 color: #938400}
 
 .tel {
-right: -145px;
+right: -87px;
 margin-top: 19px;
 margin-left: -99px;
 font-family: 'Roboto';
@@ -136,6 +137,7 @@ font-size: 24px;}
 width: 751px;
 height: 189px;
 left: 48px;
+line-height: 43.2px;
 top: 525.84px;
 margin: -15px 0 28px -13px;
 
