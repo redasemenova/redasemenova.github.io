@@ -1,6 +1,6 @@
 
 
-body   {max-width: width: 1000px;
+body   {max-width: 1000px;
         padding: -10px 100px 30px 48px;
         background: white;
 	    font-family: Montserrat, Roboto, sans-serif;
@@ -51,22 +51,26 @@ padding: 0px;}
      display: flex;
      align-items: center;
      justify-content: center;
-     margin: 22px 0 15px 0;
+     margin: 19px 0 15px 35px;
 }
 
 .topnav a {
-    margin: 0 0 0 15px;
-    font: Roboto;
+    margin: 0 0 0 17px;
+    font-family: Roboto;
     color: #000;
-    font-size: 18pt;
+    font-size: 24pt;
 }
 
 a.active {
     color: #938400
 }
 
-.tel {margin-top: 22px; margin-left: -20px;
-font-size: 18px;}
+.tel {
+    right: -130px;
+    margin-top: 19px;
+    margin-left: -99px;
+    font-size: 24px;
+}
 
  <!-- Текст -->
 
@@ -142,12 +146,12 @@ bottom: -80px;
 margin: 0 0 50px 0;}
 
 figcaption {
-    font: Roboto;
+    font-family: Roboto;
     font-size: 17px;
     line-height: normal;
 }
 
-.wool figcaption {font: Montserrat;
+.wool figcaption {font-family: Montserrat;
 font-size: 16px;
 line-height: normal;}
 
