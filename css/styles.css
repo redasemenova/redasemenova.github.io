@@ -193,13 +193,20 @@ left: -18px;}
 
 footer {margin: 15px 0 0 0;}
 
+.row.footer {
+width: inherit;
+background-color: #FBFBFB;
+height: 95px;
+margin: -20.5px 0 0 0;
+}
+
 img.media_links {
 width: 122px;
 height: 28.45px;
-margin: -51px 0 0 33px;}
+margin: 26px 0 0 -2px;}
 
 footer p {
-margin: -27px 0 0 -1px;
+margin: 29px 0 0 32px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
