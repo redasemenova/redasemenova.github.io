@@ -1,10 +1,8 @@
 
-* 
-{
-  margin: 0 0 0 20px;
-  padding: 0;
-}
 
+col-xs-1, col-xs-2, col-xs-3, col-xs-4, col-xs-5, col-xs-6, col-xs-7, col-xs-8, col-xs-9, col-xs-10, col-xs-11, col-xs-12 {
+    padding: 0;
+}
 
 body   {
 max-width: 1000px;
@@ -28,12 +26,12 @@ width: inherit;}
 .logo {
 width: 226px;
 height: 76px;
-margin: 0 0 0 0}
+margin: 0 0 0 5px}
 
  .topnav {
 align-items: center;
 justify-content: center;
-margin: 18px 0 0 0;}
+margin: 31px 0 0 -32;}
 
 .topnav a {
 margin: 0 0 0 19px;
@@ -69,6 +67,7 @@ font-size: 88px;
 line-height: 90%;
 font-feature-settings: 'tnum' on, 'lnum' on, 'kern' off;
 font-family: 'Montserrat';
+    
 }
 
 h2 {
@@ -132,4 +131,7 @@ img.media_links {
 .col-xs-5 > p {
     font-size: 20px;
 }
+
+
+
 
