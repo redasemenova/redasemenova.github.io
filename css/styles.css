@@ -39,11 +39,11 @@ font-size: 24px;
 }
 
 a.active {
-color: #938400
+color: #938400;
 margin: 0 0 0 15px;}
 
 a.topnav__link.contact {
-margin: 0 0 0 13px;
+margin: 0 0 0 15px;
 }
 
 .tel {
