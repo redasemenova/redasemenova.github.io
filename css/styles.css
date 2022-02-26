@@ -71,6 +71,7 @@ font-size: 88px;
 line-height: 90%;
 font-feature-settings: 'tnum' on, 'lnum' on, 'kern' off;
 font-family: 'Montserrat';
+    margin: 20px 0 73px 25px;
     
 }
 
@@ -86,7 +87,7 @@ p {
 font-size: 24px;}
 
 .new {
-margin: 10px 0 20px 0;
+margin: 35px 0 20px 18px;
 font-size: 36px;
 font-weight: normal;}
 
