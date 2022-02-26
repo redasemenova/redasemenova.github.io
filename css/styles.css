@@ -31,7 +31,7 @@ margin: 0 0 0 5px}
  .topnav {
 align-items: center;
 justify-content: center;
-margin: 31px 0 0 15;}
+margin: 31px 0 0 15px;}
 
 .topnav a {
 color: #000;
@@ -47,8 +47,8 @@ margin: 0 0 0 15px;
 }
 
 .tel {
-margin-top: 19px;
-margin-left: -99px;
+margin-top: 30px;
+margin-left: 8px;
 font-size: 24px;
 font-weight: 500;
 flex-wrap: nowrap;
