@@ -43,7 +43,7 @@ color: #938400;
 margin: 0 0 0 15px;}
 
 a.topnav__link.contact {
-margin: 0 0 0 15px;
+margin: 0 0 0 13px;
 }
 
 .tel {
@@ -75,9 +75,11 @@ font-family: 'Montserrat';
     
 }
 
-h1::first-letter , .h1_safe {
+h1::first-letter {
 letter-spacing: -0.05em;}
 
+.h1_safe {
+letter-spacing: -0.07em;}
 
 h2 {
 font-weight: 800;
@@ -88,10 +90,11 @@ letter-spacing: 0.01em;}
 width: 740px;}
 
 p {
-font-size: 24px;}
+font-size: 24px;
+margin: 15px 0 16px 20px}
 
 .new {
-margin: 35px 0 20px 18px;
+margin: 36px 0 20px 17px;
 font-size: 36px;
 font-weight: normal;}
 
@@ -140,7 +143,3 @@ img.media_links {
 .col-xs-5 > p {
     font-size: 20px;
 }
-
-
-
-
