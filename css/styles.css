@@ -86,8 +86,15 @@ font-weight: 800;
 font-size: 40px;
 letter-spacing: 0.01em;}
 
+.h2 {font-weight: 800;
+font-size: 40px;
+    letter-spacing: 0.001em;
+}
+
 .col-xs-9.sydn_p {
-width: 740px;}
+width: 740px;
+margin: 2px 0 0 0;
+letter-spacing: 0.001em;}
 
 p {
 font-size: 24px;
@@ -135,10 +142,14 @@ flex-wrap: nowrap;
 justify-content: flex-start;
 color: #000000;}
 
-img.media_links {
+.media_links {
     height: 30px;
     justify-content: flex-end;
 }
+
+.media_links_vk {margin: 0 0 0 0;}
+.media_links_fb {margin: 0 0 0 0;}
+.media_links_ins {margin: 0 0 0 0;}
 
 .col-xs-5 > p {
     font-size: 20px;
