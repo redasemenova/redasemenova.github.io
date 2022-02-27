@@ -75,14 +75,9 @@ font-family: 'Montserrat';
     
 }
 
-h1::first-letter {
+h1::first-letter , .h1_safe {
 letter-spacing: -0.05em;}
 
-.h1_2letter::first-letter {
-letter-spacing: -0.05em;}
-
-.h1_safe::first-letter {
-letter-spacing: -0.05em;}
 
 h2 {
 font-weight: 800;
