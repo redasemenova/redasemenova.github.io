@@ -104,6 +104,10 @@ p {
 font-size: 24px;
 margin: 15px 0 16px 20px}
 
+span.p_1p {
+letter-spacing: -0.002em;
+margin-left: -1px;}
+
 .new {
 margin: 35px 0 20px 17px;
 font-size: 36px;
@@ -130,9 +134,11 @@ font-style: italic;
 font-weight: 700;
 font-size: 33px;
 line-height: 110%;
-padding: 2px 0 0 20px;
-margin: 0 -21px 27px 0;
+padding: 1px 0 0 18px;
+margin: 0 -21px 0 0;
     border: none;}
+
+img.cite {margin: 16px 0 0 20px; }
 
 /*footer*/
 
@@ -144,7 +150,6 @@ line-height: 23px;
 align-items:center;
 display: flex;
 flex-wrap: nowrap;
-justify-content: flex-start;
 color: #000000;}
 
 .media_links {
@@ -153,8 +158,8 @@ color: #000000;}
 }
 
 .media_links_vk {margin: 0 0 0 0;}
-.media_links_fb {margin: 0 0 0 0;}
-.media_links_ins {margin: 0 0 0 0;}
+.media_links_fb {margin: 0 0 0 1px;}
+.media_links_ins {margin: 0 0 0 11px;}
 
 .col-xs-5 > p {
     font-size: 20px;
