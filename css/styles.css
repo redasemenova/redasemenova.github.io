@@ -149,13 +149,12 @@ color: #000000;}
 
 .media {
     justify-content: flex-end;
-    margin: 0 0 0 500px
-}
+    margin: -3px 0 18px 289px}
 
-.media_links_vk {margin: 0 10px 0 60px;}
+.media_links_vk {margin: 0 1px 0 234px;}
 .media_links_fb {margin: 0 10px 0 10px;}
 .media_links_ins {margin: 0 0 0 0;}
 
 .col-xs-5 > p {
     font-size: 20px;
-}
+margin: 0 0 24px 20px;}
