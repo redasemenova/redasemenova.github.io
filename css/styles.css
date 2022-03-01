@@ -88,11 +88,11 @@ letter-spacing: -0.07em;}
 h2 {
 font-weight: 800;
 font-size: 40px;
-letter-spacing: 0.0098em;}
+letter-spacing: 0.013em;}
 
 .h2 {font-weight: 800;
 font-size: 40px;
-letter-spacing: 0.004em;
+letter-spacing: 0.007em;
 }
 
 .col-xs-9.sydn_p {
@@ -118,7 +118,7 @@ flex-direction: row;
 font-size: 16px;
 text-decoration-line: underline;
 color: #1C52A3;
-margin: 23px 0 0 12px;}
+margin: 22px 0 0 15px;}
 
 figcaption {
 font-size: 17px;}
@@ -132,7 +132,10 @@ font-size: 33px;
 line-height: 110%;
 padding: 2px 0 0 20px;
 margin: 0 -21px 27px 0;
-    border: none;}
+border: none;}
+
+img.cite {
+margin: -13px 0 0 21px;}
 
 /*footer*/
 
@@ -148,12 +151,17 @@ justify-content: flex-start;
 color: #000000;}
 
 .media {
-    justify-content: flex-end;
-    margin: -3px 0 18px 289px}
+justify-content: flex-end;
+margin: -3px 0 18px 289px}
 
-.media_links_vk {margin: 0 1px 0 234px;}
-.media_links_fb {margin: 0 10px 0 10px;}
-.media_links_ins {margin: 0 0 0 0;}
+.media_links_vk 
+{margin: 0 1px 0 234px;}
+
+.media_links_fb 
+{margin: 0 10px 0 10px;}
+
+.media_links_ins 
+{margin: 0 0 0 0;}
 
 .col-xs-5 > p {
     font-size: 20px;
