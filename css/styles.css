@@ -56,7 +56,7 @@ flex-wrap: nowrap;
 
 /*text*/
 
-h2, p, .new, .col-xs-2 > p, footer p, .tel, .topnav a, figcaption, .col-xs-5 > p {
+h2, p, .new, .col-xs-2 > p, footer p, .tel, .topnav a, figcaption, .col-xs-5 > p, .cite_text {
 font-family: 'Roboto';
 line-height: normal;
 font-style: normal;
@@ -136,7 +136,16 @@ border: none;
 letter-spacing: -0.0019em;}
 
 img.cite {
-margin: -13px 0 0 21px;}
+margin: 0px 0 0 21px;
+padding: 0 10px 0 0;
+float: left;}
+
+.cite_text {
+font-size: 18px;
+line-height: 116.667%;
+margin: -13px 0 0 0;
+padding: 0;
+}
 
 /*footer*/
 
